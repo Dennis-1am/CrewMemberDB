@@ -1,0 +1,16 @@
+.crewCardContainer {
+    background-color: rgba(52, 50, 50, 0.883);
+    border-radius: 20px;
+    padding: 2rem;
+    width: 300px;
+}
+
+.crewCardContainer img {
+    width: 200px;
+    height: 200px;
+    margin-top: 1rem;
+}
+
+.crewContainer-main {
+    margin: 0 auto;
+}

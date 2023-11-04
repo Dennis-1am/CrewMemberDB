@@ -1,0 +1,32 @@
+.layout {
+    display: flex;
+    flex-direction: row;
+    /* space between */
+    gap: .5rem;
+    padding: 0rem 1rem 1rem 0rem;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.menu {
+    list-style: none;
+    text-align: left;
+    font-size: calc(10px + 1vmin);
+    width: 15%;
+    min-width: 250px;
+    /* padding: 1rem 1rem 1rem 1rem; */
+    background-color: rgb(39, 39, 37);
+}
+
+.menu h1 {
+    color: aquamarine;
+    padding: 1rem 1rem 1rem 1rem;
+    transition: all 0.5s ease;
+    margin: 0;
+}
+
+.menu h1:hover {
+    color: rgb(39, 39, 37);
+    background-color: aquamarine;
+    transition: all 0.5s ease;
+}

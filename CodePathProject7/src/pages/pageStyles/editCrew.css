@@ -1,0 +1,17 @@
+.Previous-Crew {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #282626;
+    border-radius: 10px;
+    line-height: 0rem;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 10px;
+    line-height: 0rem;
+}

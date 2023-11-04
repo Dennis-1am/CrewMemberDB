@@ -1,0 +1,30 @@
+.detailed-info {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 4rem;
+    line-height: 0.1rem;
+} 
+
+.detailed-info > * {
+    margin: 4rem;
+}
+
+.detailed-info button {
+    width: 30%;
+    height: 5rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #207971;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.detailed-info button:hover {
+    background-color: #36c8bc;
+    color: white;
+    cursor: pointer;
+}

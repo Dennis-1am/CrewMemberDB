@@ -1,0 +1,8 @@
+.crewContainer {
+    display: flex;
+    gap: 10rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+}
